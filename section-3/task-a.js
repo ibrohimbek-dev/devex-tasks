@@ -26,8 +26,8 @@ const countLetter_1 = (lt, sentence) => {
 	return times.length;
 };
 
-const result_1 = countLetter_1(lt, sentence);
-console.log(`'${lt}' is repeated in '${sentence}' '${result_1}' times`);
+// const result_1 = countLetter_1(lt, sentence);
+// console.log(`'${lt}' is repeated in '${sentence}' '${result_1}' times`);
 
 // ---------------------------------------------------------------------
 
@@ -44,8 +44,8 @@ const countLetter_2 = (lt, sentence) => {
 	return times.length;
 };
 
-const result_2 = countLetter_2(lt, sentence);
-console.log(`'${lt}' is repeated in '${sentence}' '${result_2}' times`);
+// const result_2 = countLetter_2(lt, sentence);
+// console.log(`'${lt}' is repeated in '${sentence}' '${result_2}' times`);
 
 // ----------------------------------------------------------------------
 
@@ -61,8 +61,8 @@ const countLetter_3 = (lt, sentence) => {
 	return times.length;
 };
 
-const result_3 = countLetter_3(lt, sentence);
-console.log(`'${lt}' is repeated in '${sentence}' '${result_3}' times`);
+// const result_3 = countLetter_3(lt, sentence);
+// console.log(`'${lt}' is repeated in '${sentence}' '${result_3}' times`);
 
 // ----------------------------------------------------------------------
 const countLetter_4 = (lt, sentence) => {
@@ -77,13 +77,13 @@ const countLetter_4 = (lt, sentence) => {
 	return times.length;
 };
 
-const result_4 = countLetter_4(lt, sentence);
-console.log(`'${lt}' is repeated in '${sentence}' '${result_4}' times`);
+// const result_4 = countLetter_4(lt, sentence);
+// console.log(`'${lt}' is repeated in '${sentence}' '${result_4}' times`);
 
 // ----------------------------------------------------------------------
 const countLetter_5 = (letter, sentence) => {
 	return sentence.split("").filter((ltr) => ltr === letter).length;
 };
 
-const result_5 = countLetter_5(lt, sentence);
-console.log(`'${lt}' is repeated in '${sentence}' '${result_5}' times`);
+// const result_5 = countLetter_5(lt, sentence);
+// console.log(`'${lt}' is repeated in '${sentence}' '${result_5}' times`);

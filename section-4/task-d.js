@@ -17,8 +17,8 @@ const checkContent_1 = (match, text) => {
 	return text.split("").every((txt) => match.includes(txt));
 };
 
-const result_1 = checkContent_1("mitgroup", "gmtiprou");
-console.log("Same text? => ", result_1);
+// const result_1 = checkContent_1("mitgroup", "gmtiprou");
+// console.log("Same text? => ", result_1);
 
 // ----------------------------------------------------------------
 console.log("----------------------------------------------------------------");
@@ -30,5 +30,5 @@ const checkContent_2 = (match, text) => {
 		: true;
 };
 
-const result_2 = checkContent_2("mitgroup", "gmtiprouooooo");
-console.log("Same text? => ", result_2);
+// const result_2 = checkContent_2("mitgroup", "gmtiprouooooo");
+// console.log("Same text? => ", result_2);
